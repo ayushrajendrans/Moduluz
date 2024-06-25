@@ -244,45 +244,56 @@
                 </div>
                 <div class="col-xl-8 col-lg-8">
                     <div class="contact-page__right">
-                        <form action="assets/inc/sendemail.php" class="comment-one__form contact-form-validated" novalidate="novalidate">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="comment-one__form contact-form-validated" novalidate="novalidate">
+                            <input type="hidden" name="access_key" value="4f2702a0-2af8-4a7a-a00f-f52c2f17c31f">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="comment-form__input-box">
-                                        <input type="text" placeholder="Your name" name="name">
+                                        <input type="text" placeholder="Your name" name="name" required>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="comment-form__input-box">
-                                        <input type="email" placeholder="Email address" name="email">
+                                        <input type="email" placeholder="Email address" name="email" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="comment-form__input-box">
-                                        <input type="text" placeholder="Phone number" name="phone">
+                                        <input type="text" placeholder="Phone number" name="phone" required>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="comment-form__input-box">
-                                        <input type="email" placeholder="Subject" name="Subject">
+                                        <input type="text" placeholder="Subject" name="subject" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xl-12 col-lg-12">
                                     <div class="comment-form__input-box">
-                                        <textarea name="message" placeholder="Write message"></textarea>
+                                        <textarea name="message" placeholder="Write message" required></textarea>
                                     </div>
-                                    <button type="submit" class="thm-btn comment-form__btn">Submit </button>
+                                    <button type="submit" class="thm-btn comment-form__btn">Submit</button>
                                 </div>
+                                
                             </div>
                         </form>
+                       
                     </div>
+                    
                 </div>
+                
             </div>
+            
         </div>
     </section>
+    <div  class="section-title">
+                           
+        <h2 class="section-title__title" >How to Reach Us</h2>
+    </div>
+    
     <!--Contact Page End-->
 
     <!--Contact Page Google Map Start-->
